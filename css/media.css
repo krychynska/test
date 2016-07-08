@@ -1,0 +1,133 @@
+@media (max-width: 1123px) {
+    .main-nav a {
+        padding: 15px 7px;
+        font-size: 13px;
+    }
+    .main-nav li {
+        display: inline-flex;
+        padding: 0;
+    }
+    input[type="submit"] {
+        top: 12px;
+        right: 19px;
+    }
+    form {
+        float: right;
+    }
+    .button {}
+    .breadcrumbs {
+        padding: 0px 15px;
+    }
+    #breadcrumbs-one a {
+        font-size: 12px;
+        padding: 4px;
+        letter-spacing: 0;
+    }
+    .symbol {
+        padding: 3px;
+    }
+    .flex-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-content {
+        column-count: 1;
+    }
+    .flex-sidebar {
+        display: none;
+    }
+    .flex-sidebar h3,
+    .flex-sidebar .angle {
+        display: none;
+    }
+    .product-price {
+        display: flex;
+        padding-bottom: 3px;
+    }
+    .add-to-bag {
+        float: none;
+        margin-left: 221px;
+        margin-top: -44px;
+    }
+    .flex-footer {
+        position: relative;
+    }
+    .handbag {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 52px 0 0;
+    }
+    .adv {
+        left: 500px;
+        top: 47px;
+    }
+    .main-nav a{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1021px) {
+    .first-logo,
+    .second-logo {
+        display: none;
+    }
+}
+
+@media(max-width: 993px) {
+    .adv {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header ul {
+        left: 22px;
+        right: 0;
+    }
+    .flex-content {
+        flex: 1 1 0;
+        column-count: 1;
+    }
+    .flex-body {
+        flex-direction: column;
+    }
+    .flex-sidebar {
+        flex: 0 0 70px;
+        display: inline-flex;
+        justify-content: center;
+    }
+    aside h3,
+    aside .angle {
+        display: none;
+    }
+    footer {
+        position: relative;
+        top: 190px;
+    }
+}
+
+@media (min-width: 1367px) {
+    .main-nav,
+    .breadcrumbs,
+    .flex-body {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-body{
+        margin: 0 235px 0 296px;
+    }
+    .slides {
+        position: absolute;
+        margin-left: 296px;
+    }
+    .handbag {
+        left: 0;
+        margin-left: 34px;
+    }
+    .footer-nav ul, .copyright{
+        justify-content: center;
+    }
+    .main-nav a{
+        font-size: 13px;
+    }
+}
